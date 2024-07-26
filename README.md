@@ -1,2 +1,2 @@
-# Turkcell-Gelece-i-Yazanlar
+# Turkcell-Gelecegi-Yazanlar
 Turkcell Geleceği Yazanlar programlarında yaptığım çalışmalar
