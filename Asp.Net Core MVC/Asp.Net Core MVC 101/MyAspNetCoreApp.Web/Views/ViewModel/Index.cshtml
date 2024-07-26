@@ -1,0 +1,13 @@
+﻿@using MyAspNetCoreApp.Web.Controllers
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model List<Products> /* return edilen View methodu içerisindeki model (datasının/objesinin) türü */
+
+<h1>ViewModelController Index</h1>
+
+@foreach (var item in Model) {
+    <p>@item.Id - @item.Name</p>
+}  
