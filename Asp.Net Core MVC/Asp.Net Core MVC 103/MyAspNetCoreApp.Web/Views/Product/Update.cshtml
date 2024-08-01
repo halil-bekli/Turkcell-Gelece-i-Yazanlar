@@ -1,0 +1,116 @@
+﻿@{
+    ViewData["Title"] = "Update";
+}
+@model Product
+
+<form asp-controller="product" asp-action="Update" method="post">
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">product Name</label>
+        <input class="form-control" asp-for="Name"> @* .net asp-for da verdiğimiz değişkene göre özellikleri (id, name, type) oto olarak ayarlıyor*@
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price" class="form-label">product Price</label>
+        <input class="form-control" asp-for="Price">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Stock" class="form-label">product Stock</label>
+        <input class="form-control" asp-for="Stock">
+    </div>
+    <div class="form-floating mb-3">
+        @*<input class="form-control" type="text" asp-for="Color"> *@
+
+        <select class="form-select" asp-for="Color" asp-items="@ViewBag.ColorSelect ">
+            <option value="">Choose a color</option>
+        </select>
+        <label asp-for="Color" class="form-label"> Color</label>
+    </div>
+
+    <div class="form-check mt-3 mb-3">
+        <input class="form-check-input" asp-for="IsPublish">
+        <label class="form-check-label" asp-for="IsPublish">
+            should it be published?
+        </label>
+    </div>
+
+    <div class="mb-3 mt-3">
+        <span>how long will the product remain in published? </span>
+        @foreach (var item in ViewBag.Expire as Dictionary<string, int>) {
+            <div class="form-check">
+
+                <input checked=@(item.Value == ViewBag.radioExpireValue ? true : false) class="form-check-input" type="radio" asp-for="Expire" value="@item.Value" id="@item.Value">
+
+                <label class="form-check-label" for="@item.Value">
+                    @item.Key
+                </label>
+            </div>
+        }
+    </div>
+
+    <div class="form-floating mt-3 mb-3">
+        <textarea class="form-control" placeholder="Write a Description here" asp-for="Description" style="height: 100px"></textarea>
+        <label asp-for="Description">Description</label>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PublishDate" class="form-label">product PublishDate</label>
+        <input class="form-control" asp-for="PublishDate"> @* .net asp-for da verdiğimiz değişkene göre özellikleri (id, name, type) oto olarak ayarlıyor*@
+    </div>
+
+    <button class="btn btn-primary" type="submit" class="mt-4">Ürün Kaydet</button>
+
+</form>
+
+@*
+<h1>Update the product</h1>
+
+<form asp-controller="product" asp-action="update" method="post">
+
+    <input type="hidden" asp-for="Id" />
+
+    <label>Ürün İsmi</label>
+    <input type="text" asp-for="Name" />
+    <br />
+    <label>Ürün Fiyat</label>
+
+    <input type="text" asp-for="Price" />
+    <br />
+    <label>Ürün Stok</label>
+
+    <input type="text" asp-for="Stock" />
+
+    <br />
+    <label>Ürün Rengi</label>
+
+    <input type="text" asp-for="Color" />
+    <br />
+
+    <button type="submit">Ürün Güncelle</button>
+
+</form>
+
+<h2>Hibrit Model</h2>
+
+<form asp-controller="product" asp-action="HybridUpdate" asp-route-productId="@Model.Id" method="post">
+
+    <label>Ürün İsmi</label>
+    <input type="text" asp-for="Name" />
+    <br />
+    <label>Ürün Fiyat</label>
+
+    <input type="text" asp-for="Price" />
+    <br />
+    <label>Ürün Stok</label>
+
+    <input type="text" asp-for="Stock" />
+
+    <br />
+    <label>Ürün Rengi</label>
+
+    <input type="text" asp-for="Color" />
+    <br />
+
+    <button type="submit">Ürün Güncelle</button>
+
+</form>*@

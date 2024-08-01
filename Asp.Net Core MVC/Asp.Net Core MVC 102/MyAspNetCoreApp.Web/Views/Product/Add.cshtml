@@ -1,0 +1,84 @@
+﻿@using MyAspNetCoreApp2.Web.Models
+@{
+    ViewData["Title"] = "Add";
+}
+@model Product
+
+<h1>Add a product</h1>
+
+<form asp-controller="product" asp-action="Add" method="post">
+
+    <label>Ürün İsmi</label>
+    <input type="text" name="Name" value="" />
+    <br />
+    <label>Ürün Fiyat</label>
+
+    <input type="text" name="Price" value="" />
+    <br />
+    <label>Ürün Stok</label>
+
+    <input type="text" name="Stock" value="" />
+
+    <br />
+    <label>Ürün Rengi</label>
+
+    <input type="text" name="Color" value="" />
+    <br />
+
+    <button type="submit">Ürün Kaydet</button>
+
+</form>
+
+<br />
+
+<h2>3. Method</h2>
+
+<form asp-controller="product" asp-action="Add2" method="post">
+
+    <label>Ürün İsmi</label>
+    <input type="text" asp-for="Name" />
+    <br />
+    <label>Ürün Fiyat</label>
+
+    <input type="text" asp-for="Price" />
+    <br />
+    <label>Ürün Stok</label>
+
+    <input type="text" asp-for="Stock" />
+
+    <br />
+    <label>Ürün Rengi</label>
+
+    <input type="text" asp-for="Color" />
+    <br />
+
+    <button type="submit">Ürün Kaydet</button>
+
+</form>
+
+<br />
+
+<h2>4. Method</h2>
+
+<form asp-controller="product" asp-action="SaveProductWithHttpGet" method="get">
+
+    <label>Ürün İsmi</label>
+    <input type="text" asp-for="Name" />
+    <br />
+    <label>Ürün Fiyat</label>
+
+    <input type="text" asp-for="Price" />
+    <br />
+    <label>Ürün Stok</label>
+
+    <input type="text" asp-for="Stock" />
+
+    <br />
+    <label>Ürün Rengi</label>
+
+    <input type="text" asp-for="Color" />
+    <br />
+
+    <button type="submit">Ürün Kaydet</button>
+
+</form>

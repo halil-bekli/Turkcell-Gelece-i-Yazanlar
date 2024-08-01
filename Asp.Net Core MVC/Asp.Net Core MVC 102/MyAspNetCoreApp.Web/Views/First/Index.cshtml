@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+@section Css {
+    <link href="~/css/example.css" rel="stylesheet" asp-append-version="true" />
+
+    <style>
+        h1 {
+            color: darkred;
+            background-color: cornflowerblue;
+            font-family: 'Times New Roman', Times, serif;
+            height: default
+        }
+    </style>
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        alert("sayfamıza hoşgeldin")
+        $(document).ready(function () {
+            console.log("sayfamıza hoşgeldin");
+        })
+
+    </script>
+}
+
+<h1>First Controller Index</h1>
+<hr />
+<h2>Bu başlığın CSS dosyası var (example.css)</h2>
+
+<partial name="_MenuPartialView"></partial>
+@* or *@
+@await Html.PartialAsync("_MenuPartialView")
+
+@* @{
+    var str = viewbag.message;
+    <p>@str</p>
+}
+
+<p>@str</p>
+
+<span>@viewbag.message</span>
+
+<p>@viewbag.show</p>
+
+<hr />
+
+<p> yaş: @viewdata["age"]</p>
+
+<h1> isimler </h1>
+
+@foreach (var item in viewdata["names"] as list<string>) {
+    <p>@item</p>
+}
+
+<h1> dizi elemanları </h1>
+
+@foreach (var item in viewbag.array as string[]) {
+    <p>@item</p>
+}
+
+<p> @viewbag.person.ıd - @viewbag.person.name - @viewbag.person.age</p>
+
+<p> soyadı: @tempdata["soyadi"] </p> *@

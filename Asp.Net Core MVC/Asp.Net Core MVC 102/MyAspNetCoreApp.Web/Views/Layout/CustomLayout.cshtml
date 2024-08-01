@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "ExampleController Index Page";
+    Layout = "ExampleLayout";
+}
+
+@section header 
+{
+    @*Burada yazılan kodlar RenderBody() nin olduğu yerde değil 
+    await RenderSectionAsync("header", required: false)  olduğu yerde html e dönüşür *@
+
+    <p>Bu kodlar header'ın hemen altına eklenecek</p>
+
+}
+
+@section footer 
+{
+    <p>Bu kodlar footer'ın hemen altına eklenecek</p>
+}
+
+<div>Bu sayfa ExampleController > Index sayfası</div>

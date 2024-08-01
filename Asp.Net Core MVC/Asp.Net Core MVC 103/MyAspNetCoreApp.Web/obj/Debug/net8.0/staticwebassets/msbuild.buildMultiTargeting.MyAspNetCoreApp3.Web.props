@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MyAspNetCoreApp3.Web.props" />
+</Project>

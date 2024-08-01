@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|c:\\users\\administrator\\desktop\\turkcell gelece\u011Fi yazanlar\\asp.net core mvc\\asp.net core mvc 102\\myaspnetcoreapp.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|c:\\users\\administrator\\desktop\\turkcell gelece\u011Fi yazanlar\\asp.net core mvc\\asp.net core mvc 102\\myaspnetcoreapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|c:\\users\\administrator\\desktop\\turkcell gelece\u011Fi yazanlar\\asp.net core mvc\\asp.net core mvc 102\\myaspnetcoreapp.web\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|solutionrelative:views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|c:\\users\\administrator\\desktop\\turkcell gelece\u011Fi yazanlar\\asp.net core mvc\\asp.net core mvc 102\\myaspnetcoreapp.web\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8363FFC6-90A0-402A-B4A1-5447B0BA1039}|MyAspNetCoreApp2.Web.csproj|solutionrelative:views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T18:18:03.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Views\\Product\\Add.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAABMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-28T18:16:12.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ebe3f1d5-feac-4131-bf03-0e85ffb89a89}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Controllers\\ProductController.cs*",
+              "RelativeToolTip": "Controllers\\ProductController.cs*",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:36:49.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Turkcell Gelece\u011Fi Yazanlar\\Asp.Net Core MVC\\Asp.Net Core MVC 102\\MyAspNetCoreApp.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:35:39.214Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
